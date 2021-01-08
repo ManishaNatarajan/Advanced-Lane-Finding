@@ -34,6 +34,10 @@ The `challenge_video.mp4` video is an extra (and optional) challenge for you if 
 
 If you're feeling ambitious (again, totally optional though), don't stop there!  We encourage you to go out and take video of your own, calibrate your camera and show us how you would implement this project from scratch!
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
+## Files to look at:
+- `./Advanced Lane Finding.ipynb` is the final submission file (in the main directory).
+- There is an additional IPython notebook titled **images_for_writeup.ipynb** which was used to
+generate the images in this writeup. 
+- The final output video is called **project_output.mp4** 
+- All the images in the writeup can be found in the directory `./output_images`
+- The final writeup is in **writeup.md**

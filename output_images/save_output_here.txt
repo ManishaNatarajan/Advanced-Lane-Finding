@@ -1,1 +1,10 @@
 Please save your output images to this folder and include a description in your README of what each image shows.
+
+chess_undistorted.png: "Undistorted chessboard"
+test3_undistorted.png: "Undistorted test"
+thresholded_output.png: "Binary Example"
+warped_output.png: "Road transformed"
+sliding_window.png: "Sliding Window"
+search_from_prior.png: "Search from Prior"
+out_image.png: "Output"
+../project_output.mp4 "Video"
