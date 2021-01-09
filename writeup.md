@@ -132,6 +132,8 @@ green area shows the search boundary for nonzero pixels based on the fit from th
 
 ![Search from Prior][image5]
 
+**Additional Note**: My previous submission would sometimes detect erroneous lane lines. To overcome that, I verify by ensuring that the radius of curvature of the two detected lane lines aren't too small, and I also measure the distance between the lanes, and make sure that it is within 3.7+/-0.3m, as the actual lane width is 3.7 meters. If any of these conditions fail, then I continue to use the fit co-efficients from the previous frame.
+
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
 Measuring radius of curvature is contained in the **11th code cell** and measuring the position of the vehicle with respect to the lane centre is
